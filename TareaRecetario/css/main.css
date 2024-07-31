@@ -1,0 +1,134 @@
+
+.container{
+    /* border: 4px solid green;  */
+    width: 100%;
+    height: 10VH;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 3;    
+    grid-template-areas: 
+    "logo navbar navbar"
+    ;
+
+    
+}
+
+.logo-container {
+    /* border: solid 1px rgb(17, 0, 255); */  
+    width: 100%;
+    height: 100%; 
+    grid-area: logo;  
+}
+
+.logo-container img {
+    /* border: solid 1px rgb(255, 0, 242); */
+    width: 100%;
+    height: 28%; 
+    margin-top: 5px;
+    object-fit: cover;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgba(104, 196, 61, 0.679);
+    /* border: solid 1px red; */
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    align-items: center;
+    justify-content: space-around;
+   height: 5vh;
+   object-fit: cover;
+    grid-area: navbar; 
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+
+.item {
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+
+.background-image {
+    align-items: center;
+    background-image: url(https://res.cloudinary.com/dp8gxg4mp/image/upload/v1722100124/background_n40zhh.jpg);
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150vh; 
+}
+
+.background-image img {
+    text-align: center;
+    background-size: cover;  
+    object-fit: cover; 
+} 
+
+.background-image h1{
+    font-size: 50px;
+    padding-top: 65vh;
+}
+
+.background-image h2{
+    font-size: 50px;
+    
+}
+
+.background-image button{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 166, 0, 0.781);
+    box-shadow: 0 5px 5px 5px;
+}
+
+.background-image button a{
+    color: white;
+    text-decoration: none;
+}
+
+.Page-description-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.Page-description-container button{
+    width: 10rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    background-color: rgba(255, 166, 0, 0.781);
+    box-shadow: 0 5px 5px 5px;
+}
+
+.Page-description-container button a{
+    color: white;
+    text-decoration: none;
+}
+
+.description{
+    width: 30%;
+    margin-top: 3rem;
+}
+
+.image-description {
+    width: 40%;
+    height: 30vh;
+}
+
+.image-description img {
+    width: 100%;
+    height: 50vh;
+    object-fit: scale-down;
+}

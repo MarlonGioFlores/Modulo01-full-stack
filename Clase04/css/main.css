@@ -1,0 +1,69 @@
+main{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100vh;
+}
+
+/* MEDIA QUERY PARA PANTALLAS SUPER PEQUENIAS 
+    MEDIA QUERY DEBE IR SIEMPRE AL FINAL DEL CSS
+*/
+@media(min-width: 320px) and (max-width: 480px){
+    main{
+        background-color: purple;
+    }
+
+    h1{
+        font-size: 1rem;
+    }
+}
+
+/* MEDIAQUERY PARA SMARTPHONE y tablet pequenia */
+@media (min-width: 481px) and (max-width: 768px){
+    main{
+        background-color: orange;
+    }
+
+    h1{
+        font-size: 2rem;
+        color: aquamarine;
+    }
+}
+
+/* MEDIAQUERY PARA TABLETS, IPADS, SMARTPHONE HORIZONTALES */
+
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape){
+    main{
+        background-color: rgb(125, 199, 125);
+    }
+
+    h1{
+        font-size: 2rem;
+        color: rgb(54, 54, 135);
+    }
+}
+
+/* MEDIAQUERY PARA DESKTOP */
+@media (min-width: 1025px) and (max-width: 1080px) and (orientation: landscape){
+    main{
+        background-color: rgb(22, 166, 22);
+    }
+
+    h1{
+        font-size: 2rem;
+        color: rgb(54, 54, 135);
+    }
+}
+
+
+/* MEDIAQUERY PARA RESOLUCIONES MAYORES */
+
+@media (min-width: 1281px) {
+    main{
+        background-color: rgb(28, 76, 28);
+    }
+
+    h1{
+        font-size: 2rem;
+        color: rgb(125, 125, 206);
+    }
+}

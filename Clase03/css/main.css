@@ -1,0 +1,28 @@
+/* :root{
+    font-size: 100px;
+} */
+
+main{
+    border: 1px solid red;
+    width: 100%;
+    font-size: 400px;
+    margin-bottom: 1rem;
+}
+
+/* Se utiliza rem en medidas ya que se ajusta al valor nativo del navegador. */
+h1{
+    
+    font-size: 2rem;
+}
+
+section{
+    border: 1px solid red;
+    width: 450px;
+    font-size: 400px;
+}
+
+div{
+    border: 1px solid purple;
+    width: 50%;
+    font-size: 400px;
+}

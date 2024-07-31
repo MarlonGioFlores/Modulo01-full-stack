@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*Se utiliza para formatear margen de navegador de forma manual 
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ */
+
+
+section{
+    border: 1px solid red;
+    width: 100%;
+    /* el alto no funciona con porcentajes pero si con pixeles*/
+    height: 50%;
+}
+
+*, *::before, *::after{
+    box-sizing: border-box; 
+}
+
+*{
+    margin: 0; 
+    padding: 0; 
+}
+
+ul[role='list'], ol[role='list']{
+    list-style: none; 
+}
+
+html:focus-within{
+    scroll-behavior: smooth; 
+}
+
+a:not([class]){
+    text-decoration-skip-ink: auto; 
+}
+
+img, picture, svg, video, canvas{
+    max-width: 100%;
+    height: auto; 
+    vertical-align: middle; 
+    font-style: italic; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+input, button, textarea, select{
+    font: inherit; 
+}
+
+@media (prefers-reduced-motion: reduce){
+    html:focus-within {
+        scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+        transition: none;
+    }
+}
+
+body, html{
+    height: 100%; 
+    scroll-behavior: smooth; 
+}
+/*
+.title{
+    color: green;
+    font-family: "Open Sans", sans-serif;
+}
+
+.title-about{
+    color: blue;
+    font-family: "Open Sans", sans-serif;
+}
+
+#title-profesion{
+    color: chartreuse;
+    font-family: "Open Sans", sans-serif;
+}
+p{
+color: black;
+}
+
+.title{
+    color: green;
+}
+
+.container{
+    background-color: green;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+.container{
+    background-color: blue;
+    margin: 200px 100px 50px 100px;
+    padding: 100px;
+}
+*/
+
+/* asterisco significa root element 
+    Se debe realizar la configuracion del navegarod al iniciar un proyecto*/
+
+
+/* .container{
+    background: #0F2027;  
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); 
+    height: 100vh;
+} */
+
+
+/* Al body se le da estilo directamente no se puede asignar title 
+
+.container{
+    background-image: url('https://res.cloudinary.com/dp8gxg4mp/image/upload/v1720661928/cld-sample-5.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.container h1{
+    color: white;
+    text-transform: capitalize;
+}
+
+.container p{
+    color: white;
+}
+    */
